@@ -183,7 +183,7 @@ jupyter notebook examples/sam3_image_predictor_example.ipynb
 
 ## Model
 
-SAM 3 consists of a detector and a tracker that share a vision encoder. The
+SAM 3 consists of a detector and a tracker that share a vision encoder. It has 848M parameters. The
 detector is a DETR-based model conditioned on text, geometry, and image
 exemplars. The tracker inherits the SAM 2 transformer encoder-decoder
 architecture, supporting video segmentation and interactive refinement.
@@ -269,8 +269,8 @@ architecture, supporting video segmentation and interactive refinement.
       <td style="text-align: center; border-right: 2px solid #ddd; padding: 10px 20px">54.1</td>
       <td style="text-align: center; padding: 10px 20px">40.6</td>
       <td style="text-align: center; border-right: 1px solid #eee; padding: 10px 20px">53.6</td>
-      <td style="text-align: center; padding: 10px 20px">56.5</td>
-      <td style="text-align: center; border-right: 1px solid #eee; padding: 10px 20px">57.2</td>
+      <td style="text-align: center; padding: 10px 20px">56.4</td>
+      <td style="text-align: center; border-right: 1px solid #eee; padding: 10px 20px">55.7</td>
       <td style="text-align: center; padding: 10px 20px">55.7</td>
     </tr>
   </tbody>
